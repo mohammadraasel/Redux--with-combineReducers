@@ -1,0 +1,27 @@
+body {
+  padding: 5%;
+  text-align: center;
+}
+.App {
+  width: 60%;
+  margin: auto;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.post-text {
+  display: inline-block;
+  text-align: left;
+  width: 500px;
+}
+.star {
+  margin-right: 1.5rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
