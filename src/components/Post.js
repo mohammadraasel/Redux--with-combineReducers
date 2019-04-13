@@ -26,6 +26,7 @@ export class Post extends Component {
         )}
         <div className="post-text">
           <a href="#">{post.title}</a>
+          <p>{post.id}</p>
           <p>{post.body}</p>
         </div>
       </div>
